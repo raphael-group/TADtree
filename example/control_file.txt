@@ -1,0 +1,11 @@
+S = 50										# max. size of TAD (in bins)
+M = 25										# max. number of TADs in each tad-tree
+p = 3										# boundary index parameter
+q = 12										# boundary index parameter
+gamma = 500									# balance between boundary index and squared error in score function
+
+contact_map_path = chr12.txt,chr13.txt		# comma separated (no spaces!!) list of paths to input contact matrices, formatted as matrix of numbers without column or row labels
+contact_map_name = chr12,chr13				# comma separated (no spaces!!) list of names of contact matrices
+N = 400,400									# comma separated (no spaces!!) list of numbers of TADs to use, one for each contact map in previous line
+
+output_directory = ./output					# directory to output TAD annotations as BED files

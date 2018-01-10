@@ -1,0 +1,2 @@
+chr	start	end
+chr12	861	868
